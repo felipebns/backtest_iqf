@@ -1,0 +1,107 @@
+CDI no período: retorno acumulado 144.44%, CAGR 9.50%
+
+
+Parameter       Value
+--------------  --------
+Benchmark       Ibovespa
+Risk-Free Rate  9.5%
+Periods/Year    252
+Compounded      Yes
+Match Dates     Yes
+
+
+                           Ibovespa    Estratégia
+-------------------------  ----------  ------------
+Start Period               2016-10-31  2016-10-31
+End Period                 2026-10-29  2026-10-29
+Risk-Free Rate             9.5%        9.5%
+Time in Market             100.0%      100.0%
+
+Cumulative Return          163.09%     86.13%
+CAGR﹪                      10.32%      6.51%
+
+Sharpe                     0.15        -0.02
+Prob. Sharpe Ratio         67.99%      47.06%
+Smart Sharpe               0.15        -0.02
+Sortino                    0.2         -0.03
+Smart Sortino              0.2         -0.03
+Sortino/√2                 0.14        -0.02
+Smart Sortino/√2           0.14        -0.02
+Omega                      1.03        1.0
+
+Max Drawdown               -46.82%     -36.43%
+Max DD Date                2020-03-23  2022-07-15
+Max DD Period Start        2020-01-24  2021-06-07
+Max DD Period End          2021-01-06  2025-11-24
+Longest DD Days            919         1632
+Volatility (ann.)          23.24%      21.01%
+R^2                        0.63        0.63
+Information Ratio          -0.02       -0.02
+Calmar                     0.22        0.18
+Skew                       -1.11       -2.9
+Kurtosis                   19.09       54.91
+Ulcer Performance Index    13.56       4.9
+Risk-Adjusted Return       0.75%       -2.73%
+Risk-Return Ratio          0.03        0.03
+
+Avg. Return                0.05%       0.03%
+Avg. Win                   1.0%        0.87%
+Avg. Loss                  -0.99%      -0.9%
+Win/Loss Ratio             1.01        0.96
+Profit Ratio               0.92        0.85
+
+Expected Daily %           0.04%       0.03%
+Expected Monthly %         0.8%        0.51%
+Expected Yearly %          9.19%       5.81%
+Kelly Criterion            4.99%       3.93%
+Risk of Ruin               0.0%        0.0%
+Daily Value-at-Risk        -2.36%      -2.14%
+Expected Shortfall (cVaR)  -2.97%      -2.7%
+
+Max Consecutive Wins       15          11
+Max Consecutive Losses     13          9
+Gain/Pain Ratio            0.11        0.08
+Gain/Pain (1M)             0.6         0.38
+
+Payoff Ratio               1.01        0.96
+Profit Factor              1.11        1.08
+Common Sense Ratio         1.09        1.17
+CPC Index                  0.58        0.55
+Tail Ratio                 0.98        1.08
+Outlier Win Ratio          3.24        3.7
+Outlier Loss Ratio         3.39        3.87
+
+MTD                        -9.21%      -14.42%
+3M                         -4.18%      -7.37%
+6M                         -10.3%      -14.42%
+YTD                        5.0%        -11.96%
+1Y                         14.76%      -3.16%
+3Y (ann.)                  10.56%      3.77%
+5Y (ann.)                  10.88%      5.13%
+10Y (ann.)                 10.66%      6.93%
+All-time (ann.)            10.32%      6.51%
+
+Best Day                   13.91%      8.69%
+Worst Day                  -14.78%     -25.04%
+Best Month                 15.9%       15.74%
+Worst Month                -29.9%      -18.41%
+Best Year                  33.95%      43.65%
+Worst Year                 -11.93%     -18.44%
+
+Avg. Drawdown              -4.06%      -3.27%
+Avg. Drawdown Days         44          55
+Recovery Factor            2.64        2.32
+Ulcer Index                0.11        0.16
+Serenity Index             0.61        0.2
+
+Avg. Up Month              4.6%        4.42%
+Avg. Down Month            -4.33%      -4.46%
+Win Days %                 52.28%      52.96%
+Win Month %                59.5%       57.85%
+Win Quarter %              58.54%      63.41%
+Win Year %                 72.73%      45.45%
+
+Beta                       -           0.72
+Alpha                      -           -0.0
+Correlation                -           79.64%
+Treynor Ratio              -           106.43%
