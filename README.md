@@ -56,10 +56,10 @@ Os arquivos do Economatica não vão para o Git. Baixe-os em frequência diária
 
 Ficam em `output/`:
 
-- `retorno_acumulado.png`: estratégia contra o Ibovespa.
+- `retorno_acumulado.png`: estratégia contra o Ibovespa e o CDI.
 - `underwater.png`: queda em relação ao último topo.
 - `piores_drawdowns.png`: os 5 piores períodos de queda.
-- `metricas.txt`: métricas contra o Ibovespa. O Sharpe desconta o CDI do período.
+- `metricas.txt`: métricas contra o Ibovespa e contra o CDI. O Sharpe desconta o CDI do período.
 - `retornos_diarios.csv`: retorno diário da estratégia.
 - `carteiras.csv`: ações escolhidas em cada rebalanceamento.
 

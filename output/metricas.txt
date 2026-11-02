@@ -1,5 +1,5 @@
-CDI no período: retorno acumulado 144.44%, CAGR 9.50%
 
+===== Estratégia vs Ibovespa =====
 
 Parameter       Value
 --------------  --------
@@ -105,3 +105,110 @@ Beta                       -           0.72
 Alpha                      -           -0.0
 Correlation                -           79.64%
 Treynor Ratio              -           106.43%
+
+===== Estratégia vs CDI =====
+
+Parameter       Value
+--------------  -------
+Benchmark       CDI
+Risk-Free Rate  9.5%
+Periods/Year    252
+Compounded      Yes
+Match Dates     Yes
+
+
+                           CDI         Estratégia
+-------------------------  ----------  ------------
+Start Period               2016-10-31  2016-10-31
+End Period                 2026-10-29  2026-10-29
+Risk-Free Rate             9.5%        9.5%
+Time in Market             100.0%      100.0%
+
+Cumulative Return          144.44%     86.13%
+CAGR﹪                     9.5%        6.51%
+
+Sharpe                     0.0         -0.02
+Prob. Sharpe Ratio         50.16%      47.06%
+Smart Sharpe               0.0         -0.02
+Sortino                    0.0         -0.03
+Smart Sortino              0.0         -0.03
+Sortino/√2                 0.0         -0.02
+Smart Sortino/√2           0.0         -0.02
+Omega                      1.0         1.0
+
+Max Drawdown               -           -36.43%
+Max DD Date                -           2022-07-15
+Max DD Period Start        -           2021-06-07
+Max DD Period End          -           2025-11-24
+Longest DD Days            -           -
+Volatility (ann.)          0.25%       21.01%
+R^2                        0.0         0.0
+Information Ratio          -0.0        -0.0
+Calmar                     -           0.18
+Skew                       -0.17       -2.9
+Kurtosis                   -0.47       54.91
+Ulcer Performance Index    -           4.9
+Risk-Adjusted Return       -0.0%       -2.73%
+Risk-Return Ratio          2.28        0.03
+
+Avg. Return                0.04%       0.03%
+Avg. Win                   0.04%       0.87%
+Avg. Loss                  -           -0.9%
+Win/Loss Ratio             -           0.96
+Profit Ratio               -           0.85
+
+Expected Daily %           0.04%       0.03%
+Expected Monthly %         0.74%       0.51%
+Expected Yearly %          8.46%       5.81%
+Kelly Criterion            -           3.93%
+Risk of Ruin               0.0%        0.0%
+Daily Value-at-Risk        -0.01%      -2.14%
+Expected Shortfall (cVaR)  -0.0%       -2.7%
+
+Max Consecutive Wins       2483        11
+Max Consecutive Losses     0           9
+Gain/Pain Ratio            -           0.08
+Gain/Pain (1M)             -           0.38
+
+Payoff Ratio               -           0.96
+Profit Factor              0.0         1.08
+Common Sense Ratio         0.0         1.17
+CPC Index                  -           0.55
+Tail Ratio                 7.38        1.08
+Outlier Win Ratio          1.53        3.7
+Outlier Loss Ratio         -           3.87
+
+MTD                        1.02%       -14.42%
+3M                         3.39%       -7.37%
+6M                         6.9%        -14.42%
+YTD                        11.7%       -11.96%
+1Y                         14.37%      -3.16%
+3Y (ann.)                  13.13%      3.77%
+5Y (ann.)                  12.97%      5.13%
+10Y (ann.)                 9.46%       6.93%
+All-time (ann.)            9.5%        6.51%
+
+Best Day                   0.11%       8.69%
+Worst Day                  0.01%       -25.04%
+Best Month                 1.28%       15.74%
+Worst Month                0.05%       -18.41%
+Best Year                  14.31%      43.65%
+Worst Year                 2.17%       -18.44%
+
+Avg. Drawdown              -           -3.27%
+Avg. Drawdown Days         -           -
+Recovery Factor            -           2.32
+Ulcer Index                0.0         0.16
+Serenity Index             -           0.2
+
+Avg. Up Month              0.74%       4.42%
+Avg. Down Month            -           -4.46%
+Win Days %                 100.0%      52.96%
+Win Month %                100.0%      57.85%
+Win Quarter %              100.0%      63.41%
+Win Year %                 100.0%      45.45%
+
+Beta                       -           -0.11
+Alpha                      -           0.1
+Correlation                -           -0.13%
+Treynor Ratio              -           -686.73%
