@@ -26,6 +26,8 @@ python main.py
 
 A execução leva cerca de 1 minuto. Os parâmetros gerais estão no começo de `main.py`, e os de cada carteira em `src/estrategia.py`.
 
+O `backtest_grupo4.ipynb` traz o mesmo código e os resultados já executados. Para rodá-lo de novo, abra-o no VS Code ou no Jupyter com o kernel do `.venv`.
+
 ## Dados
 
 Os arquivos do Economatica não vão para o Git. Baixe-os em frequência diária, com os mesmos tickers, e coloque-os em `data/`:
@@ -68,6 +70,8 @@ Definidas aqui porque a Entrega 1 não as fixa, ou traz valores diferentes entre
 - **Liquidez:** mediana de pelo menos R$ 1 mi/dia nos últimos 3 meses, contando dia sem negócio como zero.
 - **Várias classes:** só a mais negociada de cada empresa entra.
 - **Balanços:** só são usados 90 dias depois da data de referência, para não olhar o futuro.
+- **Calendário:** só pregões da B3. Data de rebalanceamento que cai em fim de semana ou feriado usa o pregão anterior.
+- **Histórico curto:** ação com menos de 5 anos de bolsa calcula o downside deviation com o histórico que tem, no mínimo 1 ano, exigido pelo momentum.
 - **Beta:** 1 ano de retornos diários contra o Ibovespa.
 - **Crescimento:** 15% a.a., que aparece em dois slides; um terceiro cita 20%.
 - **Nota da defensiva:** 60% para low vol, por causa da "prioridade à proteção contra quedas".

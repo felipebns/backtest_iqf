@@ -18,7 +18,7 @@ Risk-Free Rate             9.5%        9.5%
 Time in Market             100.0%      100.0%
 
 Cumulative Return          163.09%     86.13%
-CAGR﹪                      10.32%      6.51%
+CAGR﹪                     10.32%      6.51%
 
 Sharpe                     0.15        -0.02
 Prob. Sharpe Ratio         67.99%      47.06%
